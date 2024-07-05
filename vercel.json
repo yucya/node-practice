@@ -1,5 +1,1 @@
-{
-    "builds": [
-      { "src": "public/**/*", "use": "@vercel/static" }
-    ]
-  }
+{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/public" }] }
